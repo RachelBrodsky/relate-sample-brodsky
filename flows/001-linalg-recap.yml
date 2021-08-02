@@ -21,7 +21,9 @@ pages:
 
         Yadda yadda.
 
-        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>
+        <figure class="video_container">
+        <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+        </figure>
 
       
 -
