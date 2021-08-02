@@ -21,7 +21,7 @@ pages:
 
         Yadda yadda.
 
-        <iframe src="https://ide.geeksforgeeks.org/tryit.php"
+        <iframe
         height="300" width="400">
         </iframe>
 
