@@ -21,10 +21,10 @@ pages:
 
         Yadda yadda.
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ArwcHjmsw3A"
-        frameborder="0" allowfullscreen></iframe>
+      <iframe sandbox srcdoc="<p>hey that's earl's table.
+      <p>you should get earl&amp;amp;me on the next cover."></iframe>
 
-        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>
+      <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>
 
 -
     type: Page
