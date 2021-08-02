@@ -21,9 +21,7 @@ pages:
 
         Yadda yadda.
 
-      <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-      </div>
+        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>
 
 -
     type: Page
