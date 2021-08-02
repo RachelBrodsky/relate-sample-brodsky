@@ -21,9 +21,7 @@ pages:
 
         Yadda yadda.
 
-        <iframe
-        height="300" width="400">
-        </iframe>
+        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>
 
       
 -
