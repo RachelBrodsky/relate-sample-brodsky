@@ -21,8 +21,10 @@ pages:
 
         Yadda yadda.
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ArwcHjmsw3A" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ArwcHjmsw3A"
+        frameborder="0" allowfullscreen></iframe>
 
+        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>
 
 -
     type: Page
