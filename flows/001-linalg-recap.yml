@@ -21,7 +21,9 @@ pages:
 
         Yadda yadda.
 
-        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>
+        {% from "content-macros.jinja" import youtube %}
+        {{ youtube("ArwcHjmsw3A") }}
+
 
 -
     type: Page
