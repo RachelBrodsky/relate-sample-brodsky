@@ -21,9 +21,9 @@ pages:
 
         Yadda yadda.
 
-        <figure class="video_container">
-        <iframe src="https://www.youtube.com/embed/ArwcHjmsw3A" frameborder="0" allowfullscreen="true"> </iframe>
-        </figure>
+        <iframe src="https://ide.geeksforgeeks.org/tryit.php"
+        height="300" width="400">
+        </iframe>
 
       
 -
