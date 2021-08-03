@@ -20,14 +20,17 @@ pages:
         # A little distraction to start
 
         Yadda yadda.
-        <video id="myvideo" class="video-js vjs-default-skin"
-         controls preload="auto" width="800" height="600"
-         data-setup='{"playbackRates": [1, 1.3, 1.6, 2, 4]}'>
-         <source src="../video/killingEve.mp4" type='video/mp4' />
-         <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-        </video>
+      <div class="well" markdown="1">
+        *RELATE* <i class="fa fa-heart"></i>
+        <iframe width="420" height="315"
+          src="https://www.youtube.com/embed/a5KEO-u7zEw">
+        </iframe>
 
-      
+        Note that all of this is sample content. RELATE does not clutter
+        your course page with information about itself.)
+      </div>
+
+
 -
     type: Page
     id: vectors
