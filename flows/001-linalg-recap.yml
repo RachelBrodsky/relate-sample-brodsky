@@ -27,7 +27,7 @@ pages:
         >    3. Exploring how we design and implement AI systems in ethical ways
 
         <div>
-        <a href="debug:5" role="button" class="btn btn-default">Start Quiz</a>
+        <a href="debug:8" role="button" class="btn btn-default">Start Course</a>
         </div>
 -
         {{ indented_include("ethics_course/AIethics.yml", 8) }}
