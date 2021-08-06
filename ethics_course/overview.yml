@@ -1,0 +1,11 @@
+type: Page
+id: overview
+content: |
+
+    # Overview
+    #### The key objective of this course is that you will learn what ethics is and the role that it can play in developing Artificial Intelligence. You will do this through:
+    >    1. Learning about the study of ethics
+    >    2. Understanding how ethics applies to AI
+    >    3. Exploring how we design and implement AI systems in ethical ways
+
+    <a href="flow:quiz-test" role="button" class="btn btn-default">Moral Agents</a>

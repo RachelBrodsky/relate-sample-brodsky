@@ -1,0 +1,11 @@
+    type: Page
+    id: applyEthicspt2
+    content: |
+
+      # How do we apply ethics to AI?
+      #### More currently, experts in the field have come to a set of five key principles that build a framework for AI ethics (Jobin et al 2019).
+        >   1. non-maleficence
+        >   2. responsibility or accountability
+        >   3. transparency and explainability
+        >   4. justice and fairness
+        >   5. respect for various human rights, such as privacy and security

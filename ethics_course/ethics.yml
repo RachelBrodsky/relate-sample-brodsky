@@ -1,0 +1,9 @@
+type: Page
+id: ethics
+content: |
+
+    # What is Ethics?
+    #### In order to study AI ethics, we must first take a step back and consider what is ethics? Ethics is the philosophical study of moral questions such as ["what is good or bad", "what is right or what is wrong", or "what is justice, well-being or equality"]  (University of Helsinki). Within ethics there are three main sub-fields.:
+    >   - **Meta-ethics**: Asks if we are able to fullly and truly discern what is ethical.
+    >   - **Normative ethics**: Asks how we can practically determine ethical ways of acting.
+    >   - **Applied ethics**: Asks what moral agents are both allowed to and obligated to do in different scenarios

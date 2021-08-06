@@ -1,0 +1,10 @@
+    type: Page
+    id: applyEthicspt1
+    content: |
+
+      # How do we apply ethics to AI?
+      #### Historically, Isaac Asimov, proposed the "three laws of robotics" in order to guide how he thought computers ought to interact with people.
+        >  1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+        >  2. A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.
+        >  3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.
+      These rules seem to make a lot of sense; however, as AI is placed in roles of increasing power, following all these rules might not always be possible. How might we determine what the computer ought to do in those situations? What rules might we add?
