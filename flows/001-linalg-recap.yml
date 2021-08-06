@@ -33,7 +33,7 @@ pages:
 -
         {{ indented_include("ethics_course/whyEthicspt1.yml", 8) }}
 -
-        {{ indented_include("ethics_course/multipart/whyEthicspt1.yml", 8) }}
+        {{ indented_include("ethics_course/multipart/whyEthicspt2.yml", 8) }}
 -
         {{ indented_include("ethics_course/multipart/whyEthicspt3.yml", 8) }}
 -
