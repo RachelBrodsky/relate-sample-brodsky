@@ -53,14 +53,14 @@ pages:
     id: wrapup
     content: |
 
-      # Let's review what we covered.
-      #### We explored ethics and how it relates to the field of Artificial Intelligence. Moreover, we explored how autonomous and automated systems are being placed in positions previously only held by moral agents. We have examined also how AI systems can have unintended consequences and key questions to ask in order to respond to those as well as mitigate them in the future.
-      #### Ethics is a very large and old field, though as technology plays a larger and more powerful role in our daily lives it is important that we, as engineers and scientists, do what we can to ensure the systems we implement uphold our code of ethics.
+        # Let's review what we covered.
+        #### We explored ethics and how it relates to the field of Artificial Intelligence. Moreover, we explored how autonomous and automated systems are being placed in positions previously only held by moral agents. We have examined also how AI systems can have unintended consequences and key questions to ask in order to respond to those as well as mitigate them in the future.
+        #### Ethics is a very large and old field, though as technology plays a larger and more powerful role in our daily lives it is important that we, as engineers and scientists, do what we can to ensure the systems we implement uphold our code of ethics.
 
 
 
 completion_text: |
 
-    # End of Introduction to Ethics.
+      # End of Introduction to Ethics.
 
-    #### Now you're ready to take the [quiz](flow:quiz-test).
+      #### Now you're ready to take the [quiz](flow:quiz-test).
