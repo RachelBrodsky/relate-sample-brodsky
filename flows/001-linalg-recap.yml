@@ -25,7 +25,10 @@ pages:
         >    1. Learning about the study of ethics
         >    2. Understanding how ethics applies to AI
         >    3. Exploring how we design and implement AI systems in ethical ways
+
+        <div>
         <a href="debug:5" role="button" class="btn btn-default">Start Quiz</a>
+        </div>
 -
         {{ indented_include("ethics_course/AIethics.yml", 8) }}
 -
