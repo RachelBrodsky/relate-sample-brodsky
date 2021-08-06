@@ -24,7 +24,6 @@ pages:
         >    2. Understanding how ethics applies to AI
         >    3. Exploring how we design and implement AI systems in ethical ways
         <a href="debug:5" role="button" class="btn btn-default">Start Quiz</a>
-
 -
         {{ indented_include("ethics_course/AIethics.yml", 8) }}
 -
@@ -37,17 +36,14 @@ pages:
         {{ indented_include("ethics_course/multipart/whyEthicspt3.yml", 8) }}
 -
         {{ indented_include("ethics_course/multipart/whyEthicspt4.yml", 8) }}
-
 -
         {{ indented_include("ethics_course/applyEthicspt1.yml", 8) }}
-
 -
         {{ indented_include("ethics_course/multipart/applyEthicspt2.yml", 8) }}
 -
         {{ indented_include("ethics_course/multipart/applyEthicspt3.yml", 8) }}
 -
         {{ indented_include("questions/non-ascii-choices.yml", 8) }}
-
 -
     type: Page
     id: wrapup
