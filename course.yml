@@ -1,7 +1,7 @@
 chunks:
 
 -
-    title: "Ethics and Bias in AI"
+    title: "Welcome to Introduction to Ethics"
     id: welcome
     rules:
     -
@@ -14,34 +14,16 @@ chunks:
 
     content: |
 
-        # Hi there!
+        # Welcome to Introduction to Ethics!
 
-        Rachel says to: Check out the [linear algebra recap](flow:001-linalg-recap). Do it now. Do it.
+        Check out the Introduction to AI Ethics slides here!
 
-        You can also go there using a
-        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>.
+        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Start Course</a>.
 
-        You can also jump directly to the [sample quiz](flow:quiz-test).
+        You can also test yourself on what you've learned!
 
-        Look at the amazing embedded [PDF](repocur:pdfs/sample.pdf).
+        <a href="flow:quiz-test" role="button" class="btn btn-default">Start Quiz</a>
 
-        In addition to interactive content, RELATE also supports [static (i.e.
-        non-interactive) pages](staticpage:test).
-
-        Remember, this image shows the model that RELATE is trying to put out
-        of business:
-
-        <img src="repo:images/classroom.jpeg">
-
-        (![creative commons](repo:images/cc.png)/by [kevin dooley](https://secure.flickr.com/photos/pagedooley/13905987989/) on Flickr)
-
-        <div class="well" markdown="1">
-          *RELATE* <i class="fa fa-heart"></i>
-          <a href="https://djangoproject.com/"><img src="repo:images/django-logo.png"></a>.
-
-          (Note that all of this is sample content. RELATE does not clutter
-          your course page with information about itself.)
-        </div>
 
 -
     title: "Exam pointer"

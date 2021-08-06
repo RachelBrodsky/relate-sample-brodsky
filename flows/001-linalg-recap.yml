@@ -1,8 +1,22 @@
-title: "Linear Algebra"
+{% from "yaml-macros.yml" import indented_include %}
+
+title: "Introduction to Ethics"
 description: |
-    # Linear Algebra Recap
+    # Introduction to Ethics
 
 rules:
+    start:
+    -
+        if_before: end_week 1
+        if_has_role: [student, ta, instructor]
+        if_has_fewer_sessions_than: 40
+        may_start_new_session: True
+        may_list_existing_sessions: True
+
+    -
+        may_start_new_session: False
+        may_list_existing_sessions: True
+
     access:
     -
         if_has_role: [student, ta, instructor]
@@ -14,95 +28,53 @@ pages:
 
 -
     type: Page
-    id: intro
+    id: overview2
     content: |
 
-        # A little distraction to start
-
-        Yadda yadda.
+        # Overview:
+        The key objective of this course is that you will learn what ethics is and the role that it can play in developing Artificial Intelligence. You will do this through:
+        >    1. Learning about the study of ethics
+        >    2. Understanding how ethics applies to AI
+        >    3. Exploring how we design and implement AI systems in ethical ways
+        <a href="debug:5" role="button" class="btn btn-default">Start Quiz</a>
 
         <iframe width="600" height="400" src="https://www.youtube.com/embed/a5KEO-u7zEw" allowfullscreen=True></iframe>
+-
+        {{ indented_include("ethics_course/AIethics.yml", 8) }}
+-
+        {{ indented_include("ethics_course/ethics.yml", 8) }}
+-
+        {{ indented_include("ethics_course/whyEthicspt1.yml", 8) }}
+-
+        {{ indented_include("ethics_course/multipart/whyEthicspt2.yml", 8) }}
+-
+        {{ indented_include("ethics_course/multipart/whyEthicspt3.yml", 8) }}
+-
+        {{ indented_include("ethics_course/multipart/whyEthicspt4.yml", 8) }}
 
+-
+        {{ indented_include("ethics_course/applyEthicspt1.yml", 8) }}
+
+-
+        {{ indented_include("ethics_course/multipart/applyEthicspt2.yml", 8) }}
+-
+        {{ indented_include("ethics_course/multipart/applyEthicspt3.yml", 8) }}
+-
+        {{ indented_include("questions/non-ascii-choices.yml", 8) }}
 
 -
     type: Page
-    id: vectors
+    id: wrapup
     content: |
 
-        # Vectors
+      # Let's review what we covered.
+      #### We explored ethics and how it relates to the field of Artificial Intelligence. Moreover, we explored how autonomous and automated systems are being placed in positions previously only held by moral agents. We have examined also how AI systems can have unintended consequences and key questions to ask in order to respond to those as well as mitigate them in the future.
+      #### Ethics is a very large and old field, though as technology plays a larger and more powerful role in our daily lives it is important that we, as engineers and scientists, do what we can to ensure the systems we implement uphold our code of ethics.
 
-        A vector is pretty straight.
-
-
--
-    type: Page
-    id: ipynb
-    content: |
-
-      # Ipython notebook render examples
-
-      The following examples were using [this ipynb file](repocur:ipynbs/Ipynb_example.ipynb) in `ipynbs` folder of this repo.
-
-      ## Fully rendered
-      
-      The following markdown was used to render the full notebook:
-      
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb") }}' }}
-      ```
-
-      Result:
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb") }}
-
-      ## Sliced
-
-      We can choose which cells (by their 0-based indices) to be rendered with arg `indices`.
-
-      For example, cells 0 through 4 can be rendered with the following markdown:
-
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", indices=[0,1,2,3,4]) }}' }}
-      ```
-
-      Or using `jinja2` built-in function [`range`](http://jinja.pocoo.org/docs/2.9/templates/#range):
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", indices=range(0,4)) }}' }}
-      ```
-
-      Result:
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", indices=range(0,4)) }}
-
-      ## With markdown cleared
-
-      Use `clear_markdown` to get the result with content of *all* markdown cells cleared:
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_markdown=True) }}' }}
-      ```
-
-      Result:
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_markdown=True) }}
-
-      ## With code execution output cleared
-
-      Use `clear_output` to get the result with output of *all* code cells cleared:
-
-      Result:
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_output=True) }}' }}
-      ```
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_output=True) }}
 
 
 completion_text: |
 
-    # End of Linear Algebra Recap
+    # End of Introduction to Ethics.
 
-    Now you're ready to take the [quiz](flow:quiz-test).
+    #### Now you're ready to take the [quiz](flow:quiz-test).
